@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "calculateur";
+
+
+
+}
+
+<form action="/calculer/resultat" method="post">
+
+<div>
+    <label for="num1">number1:</label>
+    <input type="number" name="num1" value="" />
+</div>
+
+<div>
+    
+
+        <select name="cal" for="cal">
+            <option value="add">addition</option>
+            <option value="minus">soustraction</option>
+            <option value="mult">multiplication</option>
+            <option value="div">division</option>
+        </select>
+</div>
+
+<div>
+        <label for="num1">number1:</label>
+    <input type="number" name="num2" value="" />
+        
+    
+
+</div>
+
+<div>
+    <label>&nbsp;</label>
+    <input type="submit" value="See Result" class="submit" />
+</div>
+</form>
+
+
